@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="Race Styles/Racestyle.css" type="text/css" rel="stylesheet">
+        <title>Brunão's Race</title>
+    </head>
+    <body>
+        <section id="game-title">
+             <h2>Brunão's Race</h2>
+        </section>
+            <section id="game-panel">  
+                <section id="cars-list">
+                    <ul>
+                        <li>
+                            <button class="car-button-inactive" id="pilot-0">
+                                <h2>Car1</h2>
+                                <h3>Schumacher</h3>
+                                <h3>Velocidade máxima: 4</h3>
+                                <h3>Consistência: 4</h3>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="car-button-inactive" id="pilot-1"> 
+                                <h2>Car2</h2>
+                                <h3>Hamilton</h3>
+                                <h3>Velocidade máxima: 5</h3>
+                                <h3>Consistência: 3</h3>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="car-button-inactive" id="pilot-2">
+                                <h2>Car3</h2>
+                                <h3>Senna</h3>
+                                <h3>Velocidade máxima: 5</h3>
+                                <h3>Consistência: 3</h3>
+                            </button>
+                        </li>          
+                        <li>
+                            <button class="car-button-inactive" id="pilot-3">
+                                <h2>Car4</h2>
+                                <h3>Alain Prost</h3>
+                                <h3>Velocidade máxima: 4</h3>
+                                <h3>Consistência: 4</h3>
+                            </button>
+                        </li>   
+                        <li>
+                            <button class="car-button-inactive" id="pilot-4">
+                                <h2>Car5</h2>
+                                <h3>Vettel</h3>
+                                <h3>Velocidade máxima: 4</h3>
+                                <h3>Consistência: 3</h3>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="car-button-inactive" id="pilot-5">
+                                <h2>Car6</h2>
+                                <h3>Fernando Alonso</h3>
+                                <h3>Velocidade máxima: 4</h3>
+                                <h3>Consistência: 3</h3>
+                            </button>
+                        </li>  
+                        <li>
+                            <button class="car-button-inactive" id="pilot-6">
+                                <h2>Car7</h2>
+                                <h3>Mika Hakkinen</h3>
+                                <h3>Velocidade máxima: 5</h3>
+                                <h3>Consistência: 3</h3>
+                            </button>
+                        </li>            
+                        <li>
+                            <button class="car-button-inactive" id="pilot-7">
+                                <h2>Car8</h2>
+                                <h3>Nelson Piquet</h3>
+                                <h3>Velocidade máxima: 4</h3>
+                                <h3>Consistência: 5</h3>
+                            </button>
+                        </li>                                         
+                    </ul>
+                    <div>
+                            <button id="place-cars">Posicionar os carros</button>                              
+                    </div> 
+                </section>
+        <section id="race-standing">
+        </section>
+         </section>
+            <section id="race-tracks">
+
+            </section>
+        <section id="questions-panel">
+            <div id="question-text"><h4>Nível de dificuldade da pergunta:</h4></div>
+            <div id="questions-level">
+                <button type="button" class="question-button-inactive" id="easy-button">Fácil</button>
+                <button type="button" class="question-button-inactive" id="medium-button">Médio</button>   
+                <button type="button" class="question-button-inactive" id="hard-button">Difícil</button>
+
+            </div>
+            <div id="questionandanswer">
+                <div id = "questions"><h4>Pergunta:  <span id="factor1"></span> <span id="question-type"></span> <span id="factor2"></span></h4></div>
+                <div><input id="answer" type="number"></div>
+            
+                <div id="questions-buttons">
+                    <button type="button" id="answer-button">Responder</button>
+                    <button type="button" id="jump-button">Pular</button>
+                </div>
+            </div>    
+            <div id="game-buttons">
+                 <button type="button" id="pause-button">Iniciar Jogo</button>
+                 <button type="reset" id="new-game-button">Novo Jogo</button>
+            </div>
+            <div id= "monitoring-panel">
+                <section id="race-status">Status da corrida: </section>
+                <section id="player-position">Posição atual: </section>
+                <section id="race-percentage">Distância percorrida: </section>
+                <section id="player-speed">Velocidade: </section>
+            </div>
+        </section>
+
+        
+
+        <script src="Race Js/Cars.js"></script>
+        <script src="Race Js/Race.js"></script>
+        <script src="Race Js/Monitoring.js"></script>
+        <script src="Race Js/Question.js"></script>
+    </body>
+
+
+</html>

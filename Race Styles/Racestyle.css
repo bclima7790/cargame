@@ -1,0 +1,165 @@
+ul li{
+    display: inline-block;
+    margin:5px 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+ul li h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+ul li h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+ul{
+    text-align: center; 
+    text-decoration: none;
+    margin: 0;
+}
+
+.pilot-car{
+    border: 1px white;
+    padding: 2px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:11px;
+    box-sizing: border-box;
+    color:blue;
+    font-weight: bold;
+}
+
+.car{
+    padding: 2px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:11px;
+    box-sizing: border-box;
+    color:black
+}
+
+.track{
+    border: solid 3px white; 
+    padding: 15px 0px;
+    background-color: #e7e7e7;  
+}
+
+.car-button-active{
+    color: white;
+    background-color: #4CAF50
+}
+
+.cpu-button{
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid #4CAF50;
+}
+
+.car-button-inactive{
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid #4CAF50;
+}
+
+.player-button{
+    color:white;
+    background-color: #4CAF50;
+}
+
+.question-button-active{
+    color: white;
+    background-color: #4CAF50;
+    border-radius:10%;
+}
+
+.question-button-inactive{
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid  #4CAF50;
+
+}
+
+.question-button-active{
+    color: white;
+    background-color: #4CAF50;
+    border-radius:10%;
+
+}
+
+#game-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#place-cars{
+    background-color: #008CBA;
+    border-radius:5%;
+    padding:1%;
+    margin: 1% 0;
+    color:white;
+}
+
+#game-panel{
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    text-align: center;
+}
+
+#game-panel section{
+    display: inline-block;
+}
+#questions-panel div{
+    display: inline-block;
+}
+
+#questions-panel div{
+    display: inline-block;
+}
+
+#questions-panel{
+    text-align: center;
+    border: solid 1.5px;
+    box-sizing: content-box;    
+    margin: 1px 0;
+    padding: 1% 0;
+}
+
+#answer-button {
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid  #4CAF50;
+}
+
+#jump-button {
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid  #4CAF50;
+}
+
+#pause-button {
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid  #4CAF50;
+}
+
+#new-game-button {
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid  #4CAF50;
+}
+
+#monitoring-panel{
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.8em;
+    float: right;
+    margin-right:2%;
+}
